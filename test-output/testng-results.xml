@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[loginToFunta test passed]]>
+    </line>
+    <line>
+      <![CDATA[startupTimingChart test passed]]>
+    </line>
+    <line>
+      <![CDATA[routingAnalysisChart test passed]]>
+    </line>
+    <line>
+      <![CDATA[eventAnalysisChart test passed]]>
+    </line>
+    <line>
+      <![CDATA[throughputAnalysisChart test passed]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-04-15T18:56:45 IST" name="Suite" finished-at="2025-04-15T19:36:03 IST" duration-ms="2358608">
+    <groups>
+      <group name="Valid">
+        <method signature="LoginToPlatform.loginToFunta()[pri:1, instance:com.kpit.automation.tests.LoginToPlatform@44821a96]" name="loginToFunta" class="com.kpit.automation.tests.LoginToPlatform"/>
+        <method signature="SystemMapViewTest.startupTimingChart()[pri:1, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" name="startupTimingChart" class="com.kpit.automation.tests.SystemMapViewTest"/>
+        <method signature="SystemMapViewTest.routingAnalysisChart()[pri:2, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" name="routingAnalysisChart" class="com.kpit.automation.tests.SystemMapViewTest"/>
+        <method signature="SystemMapViewTest.eventAnalysisChart()[pri:3, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" name="eventAnalysisChart" class="com.kpit.automation.tests.SystemMapViewTest"/>
+        <method signature="SystemMapViewTest.throughputAnalysisChart()[pri:4, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" name="throughputAnalysisChart" class="com.kpit.automation.tests.SystemMapViewTest"/>
+        <method signature="SystemMapViewTest.sanityCheckPass()[pri:5, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" name="sanityCheckPass" class="com.kpit.automation.tests.SystemMapViewTest"/>
+        <method signature="SystemMapViewTest.sanityCheckFail()[pri:6, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" name="sanityCheckFail" class="com.kpit.automation.tests.SystemMapViewTest"/>
+      </group> <!-- Valid -->
+    </groups>
+    <test started-at="2025-04-15T18:56:45 IST" name="Test" finished-at="2025-04-15T19:36:03 IST" duration-ms="2358608">
+      <class name="com.kpit.automation.tests.SystemMapViewTest">
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" started-at="2025-04-15T18:57:13 IST" name="loginApplication" finished-at="2025-04-15T18:57:15 IST" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="startupTimingChart()[pri:1, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" started-at="2025-04-15T18:57:15 IST" name="startupTimingChart" description="Startup Timing Chart" finished-at="2025-04-15T19:01:35 IST" duration-ms="260163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[startupTimingChart test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startupTimingChart -->
+        <test-method signature="routingAnalysisChart()[pri:2, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" started-at="2025-04-15T19:01:35 IST" name="routingAnalysisChart" description="Routing Analysis Chart" finished-at="2025-04-15T19:23:45 IST" duration-ms="1329446" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[routingAnalysisChart test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- routingAnalysisChart -->
+        <test-method signature="eventAnalysisChart()[pri:3, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" started-at="2025-04-15T19:23:45 IST" name="eventAnalysisChart" description="Event Analyzer Chart" finished-at="2025-04-15T19:28:54 IST" duration-ms="308851" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[eventAnalysisChart test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- eventAnalysisChart -->
+        <test-method signature="throughputAnalysisChart()[pri:4, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" started-at="2025-04-15T19:28:54 IST" name="throughputAnalysisChart" description="Throughput Analysis Chart" finished-at="2025-04-15T19:34:34 IST" duration-ms="339887" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[throughputAnalysisChart test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- throughputAnalysisChart -->
+        <test-method signature="sanityCheckPass()[pri:5, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" started-at="2025-04-15T19:34:34 IST" name="sanityCheckPass" description="Sanity check Pass" finished-at="2025-04-15T19:36:03 IST" duration-ms="89278" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at com.kpit.automation.pages.SystemMapViewPage.goToPerformaChart(SystemMapViewPage.java:260)
+at com.kpit.automation.tests.SystemMapViewTest.sanityCheckPass(SystemMapViewTest.java:126)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityCheckPass -->
+        <test-method signature="sanityCheckFail()[pri:6, instance:com.kpit.automation.tests.SystemMapViewTest@120f102b]" started-at="2025-04-15T19:36:03 IST" name="sanityCheckFail" description="Sanity check Fail" finished-at="2025-04-15T19:36:03 IST" duration-ms="8" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.fail(Assert.java:116)
+at com.kpit.automation.pages.SystemMapViewPage.clickOnTools(SystemMapViewPage.java:125)
+at com.kpit.automation.tests.SystemMapViewTest.sanityCheckFail(SystemMapViewTest.java:142)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sanityCheckFail -->
+      </class> <!-- com.kpit.automation.tests.SystemMapViewTest -->
+      <class name="com.kpit.automation.tests.LoginToPlatform">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.kpit.automation.tests.LoginToPlatform@44821a96]" started-at="2025-04-15T18:56:45 IST" name="init" finished-at="2025-04-15T18:56:45 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.kpit.automation.tests.LoginToPlatform@44821a96]" started-at="2025-04-15T18:56:45 IST" name="setUpTest" finished-at="2025-04-15T18:56:55 IST" duration-ms="9980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="loginApplication()[pri:0, instance:com.kpit.automation.tests.LoginToPlatform@44821a96]" started-at="2025-04-15T18:56:55 IST" name="loginApplication" finished-at="2025-04-15T18:56:58 IST" duration-ms="3078" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginApplication -->
+        <test-method signature="loginToFunta()[pri:1, instance:com.kpit.automation.tests.LoginToPlatform@44821a96]" started-at="2025-04-15T18:56:58 IST" name="loginToFunta" description="Login To Platform" finished-at="2025-04-15T18:57:12 IST" duration-ms="13778" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[loginToFunta test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToFunta -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.kpit.automation.tests.LoginToPlatform@44821a96]" started-at="2025-04-15T19:36:03 IST" name="tearDown" finished-at="2025-04-15T19:36:03 IST" duration-ms="4" status="FAIL">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0434fdbc45740c83e9e85149bf96e65, close []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\aakashs2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59405/devtoo..., se:cdpVersion: 135.0.7049.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0434fdbc45740c83e9e85149bf96e65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.11'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0434fdbc45740c83e9e85149bf96e65, close []]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.84, chrome: {chromedriverVersion: 135.0.7049.84 (6c019e560019..., userDataDir: C:\Users\aakashs2\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59405}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59405/devtoo..., se:cdpVersion: 135.0.7049.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0434fdbc45740c83e9e85149bf96e65
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:418)
+at com.kpit.automation.base.BaseTest.tearDown(BaseTest.java:216)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
+at org.testng.TestRunner.afterRun(TestRunner.java:845)
+at org.testng.TestRunner.run(TestRunner.java:618)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:497)
+at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
+at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.lambda$executeAsync$1(JdkHttpClient.java:384)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573)
+at java.net.http/jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123)
+at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:456)
+... 8 more
+Caused by: java.net.ConnectException
+at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1055)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:198)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.checkRetryConnect(PlainHttpConnection.java:230)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:206)
+at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+at java.base/java.util.concurrent.CompletableFuture$UniHandle.tryFire(CompletableFuture.java:911)
+at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+... 3 more
+Caused by: java.nio.channels.ClosedChannelException
+at java.base/sun.nio.ch.SocketChannelImpl.ensureOpen(SocketChannelImpl.java:195)
+at java.base/sun.nio.ch.SocketChannelImpl.beginConnect(SocketChannelImpl.java:760)
+at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:848)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$0(PlainHttpConnection.java:183)
+at java.base/java.security.AccessController.doPrivileged(AccessController.java:569)
+at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:185)
+... 9 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:com.kpit.automation.tests.LoginToPlatform@44821a96]" started-at="2025-04-15T19:36:04 IST" name="exit" finished-at="2025-04-15T19:36:04 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- com.kpit.automation.tests.LoginToPlatform -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
